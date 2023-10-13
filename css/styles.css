@@ -20,20 +20,23 @@ body {
     color: #404BBF;
 }
 
+.logotype, .logofooter{
+    font-family: 'Raleway', sans-serif;
+}
 .logotype{
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 .logotype-span{
-    color:#4D5AE5;
+    color:#2E2F42;
 }
 
 .menu, .contact {
+    font-style: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -53,7 +56,7 @@ body {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     color: var(--WHITE, #FFF);
 }
@@ -72,11 +75,6 @@ body {
     background: var(--OCEAN, #404BBF);
 }
 
-.benefits-title {
-    display: none;
-}
-
-
 .benefits-list-title {
     font-size: 20px;
     font-weight: 500;
@@ -91,24 +89,28 @@ body {
     letter-spacing: 0.32px;
     color: var(--SLATE, #434455);
 }
-.team-title, .portfolio-title {
+.title-h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.team {
+    background: var(--CLOUD, #F4F4FD);
 }
 
 .team-list-title {
     text-align: center;
 }
 
-.team-list-title, .portfolio-list-title {
+.list-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px; /* 120% */
+    line-height: 1.11; 
     letter-spacing: 0.4px;
     color: var(--NAVY-BLUE, #2E2F42);
 }
@@ -118,26 +120,26 @@ body {
 .team-list-text, .portfolio-list-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 1.5; 
     letter-spacing: 0.32px;
     color: var(--SLATE, #434455);
 }
+
 .logofooter{
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: var(--CLOUD, #F4F4FD);
+    color: #4D5AE5;
 }
 .logofooter-span{
-    color: var(--IRIS, #4D5AE5);
+    color: #F4F4FD;
 }
 .page-footer-text{
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--CLOUD, #F4F4FD);
 }
