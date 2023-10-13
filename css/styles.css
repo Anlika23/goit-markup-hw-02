@@ -107,8 +107,8 @@ body {
     text-align: center;
 }
 
-.team-list-title, .team-list-text {
-    background-color: #FFFFFF
+.team-list-item {
+    background: var(--WHITE, #FFF);
 }
 .team-list-title, .portfolio-list-title{
     font-size: 20px;
