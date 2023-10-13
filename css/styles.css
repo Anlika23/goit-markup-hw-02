@@ -107,10 +107,9 @@ body {
     text-align: center;
 }
 
-.team-list{
+.team-color {
     background-color: #FFFFFF
 }
-
 .team-list-title, .portfolio-list-title{
     font-size: 20px;
     font-weight: 500;
