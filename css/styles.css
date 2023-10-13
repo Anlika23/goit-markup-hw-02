@@ -107,6 +107,10 @@ body {
     text-align: center;
 }
 
+.team-list{
+    background-color: #FFFFFF
+}
+
 .team-list-title, .portfolio-list-title{
     font-size: 20px;
     font-weight: 500;
@@ -124,9 +128,7 @@ body {
     letter-spacing: 0.32px;
     color: var(--SLATE, #434455);
 }
-.portfolio{
-    background-color: #FFFFFF
-}
+
 .logofooter{
     font-size: 18px;
     font-weight: 700;
